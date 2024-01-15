@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=IBM+Plex+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    overflow-x: hidden;
+}
+
+.disableBtn {
+    color: #161616 !important;
+    background-color: rgb(237, 237, 237) !important;
+    cursor: not-allowed !important;
+}

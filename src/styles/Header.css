@@ -1,0 +1,132 @@
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12rem;
+    position: sticky;
+    top: 0%;
+    z-index: 60;
+    background-color: rgb(36, 36, 36);
+    border-bottom: 1px solid rgb(120, 119, 119);
+}
+
+#nav .three-line-manu {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: #292b46;
+    font-size: 1.4rem;
+    z-index: 150;
+    position: fixed;
+    display: none;
+    top: 2rem;
+    right: 2rem;
+}
+
+#nav .three-line-manu:hover {
+    color: #f26440;
+}
+
+.portfolio_name {
+    font-size: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-list a {
+    color: #161616;
+    font-weight: 500;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+
+
+.mail-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: all 0.2s ease;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.mail-btn:hover {
+    color: #fff;
+    background-color: #3082b9;
+}
+
+.nav-phone {
+    transition: all 0.5s;
+    transform: translateY(-200%);
+    width: 100%;
+    height: 100vh;
+    background-color: #20313d;
+    padding: 5vmax;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    margin: 0 0 25px 0;
+    background-color: transparent
+}
+
+.image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #3498db;
+    mix-blend-mode: hue;
+}
+
+.nav-phone div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-list a {
+    font-weight: 500;
+    transition: all 0.1s;
+    color: #e0dede;
+}
+
+.nav-list a:hover {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    filter: drop-shadow(1px 1px 30px #3498db);
+}
+
+.nav-phone-click {
+    transform: translateY(0);
+}

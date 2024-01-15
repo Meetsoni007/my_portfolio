@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "date": "07/1/2023",
+            "title": "Fitness Club",
+            "description": "Join Fitclub where fitness meets inspiration. Our community-driven space, cutting-edge facilities, and expert guidance empower your journey to a healthier, happier you. Embark on your fitness adventure today!",
+            "url": "https://reactone-nine.vercel.app",
+            "imgSrc": "https://codemafias.com/img/post_imgs/1705174357374.png"
+        },
+        {
+            "date": "11/3/2023",
+            "title": "Word Counter",
+            "description": "Discover the power of words with Word Counter. Effortlessly count characters, words, and more. A user-friendly tool for writers, students, and professionals. Unlock precision in your text now!",
+            "url": "https://react-video-app-eight.vercel.app",
+            "imgSrc": "https://codemafias.com/img/post_imgs/1705174946568.png"
+        },
+        {
+            "date": "1/1/2024",
+            "title": "PORTFOLIO",
+            "description": "Elevate your story through my Portfolio. Capturing moments, crafting designs, and expressing ideas. Explore a visual journey showcasing creativity, skills, and a passion for excellence.",
+            "url": "/",
+            "imgSrc": "https://codemafias.com/img/post_imgs/1705175088570.png"
+        },
+        {
+            "date": "10/1/2024",
+            "title": "RESTORANT APP",
+            "description": "Savor exquisite flavors with our Restaurant. Explore diverse menus, order seamlessly, and enjoy a culinary journey with doorstep delivery. Elevate your dining experience effortlessly.",
+            "url": "https://react-cart-eosin.vercel.app",
+            "imgSrc": "https://codemafias.com/img/post_imgs/1705174819598.png"
+        }
+    ]
+}

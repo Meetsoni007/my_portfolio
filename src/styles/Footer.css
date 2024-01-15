@@ -1,0 +1,74 @@
+footer {
+    min-height: 10px;
+    background-color: #121212;
+    color: #e0dede;
+    padding: 0.5rem 0;
+    display: grid;
+    padding-left: 13.33vmax;
+    grid-template-columns: 10fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+footer .footer-info {
+    width: 100%;
+    border-left: 2px solid #e0dede;
+    border-right: 2px solid #e0dede;
+}
+
+footer .footer-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 3px solid #e0dede;
+}
+
+footer .footer-info h2 {
+    margin: 1rem;
+
+}
+
+footer .footer-info p {
+    font-weight: 100;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+footer .footer-aside-bar .footer-article {
+    margin: 1rem 1rem;
+
+}
+
+footer .footer-aside-bar .footer-article svg {
+    font-size: 2rem;
+    color: #e0dede;
+    transition: all 0.2s;
+    margin: 0 10px;
+}
+
+footer .footer-aside-bar .footer-article svg:hover {
+    color: #bfbfbf;
+}
+
+@keyframes upArrow {
+    to {
+        transform: translateY(-5px);
+    }
+}
+
+footer .up-arrow {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0dede;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+footer .up-arrow svg {
+    font-size: 1.5rem;
+    color: #e0dede;
+    animation: upArrow 0.5s infinite linear alternate;
+}
